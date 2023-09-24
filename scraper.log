@@ -1,0 +1,51 @@
+2023-09-10 13:18:32,246 - ERROR - Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\wchen\OneDrive\Documents\GitHub\webscraper\main.py", line 74, in search_and_gather_results
+    name = result.find_element_by_css_selector(name_selector).text
+  File "C:\Users\wchen\.conda\envs\myenv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 430, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "C:\Users\wchen\.conda\envs\myenv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "C:\Users\wchen\.conda\envs\myenv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\wchen\.conda\envs\myenv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\wchen\.conda\envs\myenv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"span.entity-result__title-text span span.app-aware-link"}
+  (Session info: chrome=116.0.5845.142)
+
+2023-09-10 13:18:32,257 - ERROR - Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\wchen\OneDrive\Documents\GitHub\webscraper\main.py", line 74, in search_and_gather_results
+    name = result.find_element_by_css_selector(name_selector).text
+  File "C:\Users\wchen\.conda\envs\myenv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 430, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "C:\Users\wchen\.conda\envs\myenv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "C:\Users\wchen\.conda\envs\myenv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\wchen\.conda\envs\myenv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\wchen\.conda\envs\myenv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"span.entity-result__title-text span span.app-aware-link"}
+  (Session info: chrome=116.0.5845.142)
+
+2023-09-10 13:18:32,267 - ERROR - Exception occurred
+Traceback (most recent call last):
+  File "C:\Users\wchen\OneDrive\Documents\GitHub\webscraper\main.py", line 74, in search_and_gather_results
+    name = result.find_element_by_css_selector(name_selector).text
+  File "C:\Users\wchen\.conda\envs\myenv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 430, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "C:\Users\wchen\.conda\envs\myenv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 658, in find_element
+    return self._execute(Command.FIND_CHILD_ELEMENT,
+  File "C:\Users\wchen\.conda\envs\myenv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\wchen\.conda\envs\myenv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\wchen\.conda\envs\myenv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"span.entity-result__title-text span span.app-aware-link"}
+  (Session info: chrome=116.0.5845.142)
+
